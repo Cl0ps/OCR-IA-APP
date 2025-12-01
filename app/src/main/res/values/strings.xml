@@ -1,3 +1,17 @@
 <resources>
+    <!-- It's good practice to keep your existing strings like app_name -->
     <string name="app_name">ML with TensorFlowLite</string>
+
+    <!-- ADD THESE NEW STRINGS -->
+    <string name="processing_camera_photo">Processing photo from camera...</string>
+    <string name="error_reading_camera_file">Error: Could not read camera photo file.</string>
+    <string name="processing_gallery_image">Processing image from gallery...</string>
+    <string name="error_reading_gallery_file">Error: Could not read file from gallery.</string>
+    <string name="ia_response">AI Response: %s</string>
+    <string name="error_processing_response">Error processing the server response.</string>
+    <string name="server_error">Server Error: %d</string>
+    <string name="connection_failure">Connection Failure: %s</string>
+    <string name="extracted_text_label">Texto extraído:</string>
+    <string name="server_response_format">%1$s\n\n%2$s</string>
+
 </resources>
